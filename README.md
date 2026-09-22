@@ -1,6 +1,6 @@
 ### Currently listening
 
-[![Spotify](https://your-project.vercel.app/api/orchestrator?background_color=0d1117&border_color=30363d)](https://open.spotify.com/user/YOUR_SPOTIFY_ID)
+[![Spotify](https://novatorem-olive-zeta.vercel.app/api/orchestrator?background_color=0d1117&border_color=30363d)](https://open.spotify.com/user/YOUR_SPOTIFY_ID)
 
 # Oscar Carrillo
 
