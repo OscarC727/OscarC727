@@ -1,3 +1,7 @@
+### Currently listening
+
+[![Spotify](https://your-project.vercel.app/api/orchestrator?background_color=0d1117&border_color=30363d)](https://open.spotify.com/user/YOUR_SPOTIFY_ID)
+
 # Oscar Carrillo
 
 **Electrical Engineering @ University of South Florida** · Control Lead, IEEE EXO Exoskeleton Team
