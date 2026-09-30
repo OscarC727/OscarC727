@@ -1,40 +1,31 @@
-### Currently listening
-
-[![Spotify](https://audio-orchestral.vercel.app/api/orchestrator?background_color=0d1117&border_color=30363d)](https://open.spotify.com/user/YOUR_SPOTIFY_ID)
-
 # Oscar Carrillo
 
-**Electrical Engineering @ University of South Florida** · Control Lead, IEEE EXO Exoskeleton Team
+Electrical Engineering student at the University of South Florida and Control Lead for the IEEE EXO team. The field I want to end up in is digital hardware: chip design and GPU architecture.
 
-I build hardware from scratch to understand how it works at the lowest level: validate the idea cheaply, then iterate toward something simpler and better. My focus is control systems and embedded hardware, and I'm working my way down the stack toward digital design and semiconductors.
+[Website](https://oscarc727.github.io) · [LinkedIn](https://linkedin.com/in/oscarc727) · oscarc1@usf.edu
 
----
+## What I'm working on
 
-### Currently
+- **IEEE EXO.** I lead the controls team for a student-built lower-limb exoskeleton meant for balance correction during perturbed walking. My side covers gait-phase detection, the actuator control loop, and CAN communication between Teensy 4.1 sensor nodes and a Jetson Orin Nano Super.
+- **[In the Balance](https://github.com/OscarC727/rotary-inverted-pendulum).** A rotary inverted pendulum the controls team is building as practice before the exo. I run PID workshops for the team alongside it, and all the code runs on Linux on the Jetson.
+- **[Into the Silicon](https://github.com/OscarC727/fpga-verilog).** Learning Verilog on an FPGA, starting small and working up to my first digital design project.
 
-- **Leading controls for a lower-limb exoskeleton.** The IEEE EXO team works with USF's CARRT Lab on balance correction during perturbed walking. I own the control side: gait-phase detection, the actuator control loop, and a sensing architecture built on a CAN bus.
-- **Teaching PID to my team.** I run PID workshops for the EXO control team and lead a team build of a **rotary inverted pendulum** as hands-on controls practice.
-- **Learning Verilog** on an FPGA dev board, aiming to turn it into my first digital design project.
+## Projects
 
-### Projects
+| Project | What it is | Built with | Status |
+|---|---|---|---|
+| [Self-Stabilizing Spoon](https://github.com/OscarC727/stabilizing-spoon) | Tremor-cancelling spoon. An IMU reads hand motion and a PID loop drives a 2-axis servo gimbal to keep the spoon level. | ESP32, MPU6050, SG90 servos, C++ | Breadboard prototype, PCB in progress |
+| [Audio Spectrum Analyzer](https://github.com/OscarC727/audio-spectrum-analyzer) | Live FFT of microphone audio drawn on a TFT display. Built with a friend. | Teensy 4.0, ILI9341, C++ | Working |
+| [In the Balance](https://github.com/OscarC727/rotary-inverted-pendulum) | Rotary inverted pendulum for tuning PID as a team, with LQR as a later step. | Jetson Orin Nano, Linux, C++/Python | Planning |
+| [Into the Silicon](https://github.com/OscarC727/fpga-verilog) | Verilog exercises on an FPGA, building toward a real digital design project. | Verilog, FPGA | Started |
 
-| Project | What it is | Stack |
-|---|---|---|
-| [Audio Spectrum Analyzer](#) | Real-time FFT audio visualizer on a TFT display, with the mic → FFT → display pipeline debugged end to end | Teensy 4.0 · ILI9341 · C++ |
-| [Self-Stabilizing Spoon](#) | Tremor-cancelling spoon on a 2-axis servo gimbal, stabilized with an IMU and PID control | ESP32 / XIAO ESP32 · MPU6050 · C++ |
-| [Rotary Inverted Pendulum](#) | Team controls testbed for tuning PID, with LQR experiments planned | *in progress* |
-| [FPGA / Verilog](#) | First steps into digital logic design | Verilog · *in progress* |
+## Tools
 
-### Toolbox
+- **Hardware:** ESP32, Teensy, Arduino, Jetson Orin Nano, IMUs, servos, circuit prototyping
+- **Software:** C++ (embedded), Python, Verilog (learning), Linux, Git
+- **Controls and signals:** PID tuning, state machines, sensor filtering, FFT
+- **Buses:** CAN, I²C, SPI
 
-**Hardware:** ESP32 · Teensy · Arduino · IMUs (MPU6050) · servo/BLDC actuators · CAN bus · FPGA
-**Software:** C++ · Arduino framework · Verilog *(learning)*
-**Controls:** PID · complementary & Kalman filtering · state-machine gait detection
+## Now playing
 
-### Interested in
-
-Control systems · embedded systems · digital design · semiconductors · GPU architecture · RF
-
----
-
-📫 oscarc1@usf.edu · [LinkedIn](https://linkedin.com/in/oscarc727)
+[![Now playing on Spotify](https://audio-orchestral.vercel.app/api/orchestrator?background_color=0d1117&border_color=30363d)](https://open.spotify.com/user/31gltpu6vcdrmfenlafpldsm2z6m)
